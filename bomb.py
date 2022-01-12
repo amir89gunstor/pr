@@ -21,11 +21,7 @@ try:
     if NumberPhone == "" :
         print("\n[!] Please Enter Phone Number")
     else :
-        url = "یرایش شماره
-کد فعال سازی
-فعال سازی
-01 : 21
-https://core.gap.im/v1/user/add.json?mobile=%2B989393214518"
+        url = "https://core.gap.im/v1/user/add.json?mobile=%2B989393214518"
         data = {"cellphone":"+98" + NumberPhone}
 
     while True:
