@@ -21,7 +21,7 @@ try:
     if NumberPhone == "" :
         print("\n[!] Please Enter Phone Number")
     else :
-        url = "https://virgool.io/api/v1.4/auth/verify"
+        url = "https://balad.ir/api/auth/login/"
         data = {"cellphone":"+98" + NumberPhone}
 
     while True:
